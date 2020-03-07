@@ -1,4 +1,4 @@
-package thread;
+package com.huzhengxing.thread;
 
 /**
  * @Auther: albert

@@ -1,4 +1,4 @@
-package thread;
+package com.huzhengxing.thread;
 
 import java.util.ArrayList;
 import java.util.concurrent.*;
