@@ -1,3 +1,4 @@
+[TOC]
 #  Java
 ## 1. 语言基础(Language Basics)
 
