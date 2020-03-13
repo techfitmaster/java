@@ -31,7 +31,16 @@
 
 4. **(字符和字符串)Character and String Literals**
 
-   
+   	> Literals of types `char` and `String` may contain any Unicode (UTF-16) characters. If your editor and file system allow it, you can use such characters directly in your code. If not, you can use a "Unicode escape" such as `'\u0108'` (capital C with circumflex), or `"S\u00ED Se\u00F1or"` (Sí Señor in Spanish). Always use 'single quotes' for `char` literals and "double quotes" for `String` literals. Unicode escape sequences may be used elsewhere in a program (such as in field names, for example), not just in `char` or `String` literals.
+   	>
+   	> The Java programming language also supports a few special escape sequences for `char` and `String` literals: `\b` (backspace), `\t` (tab), `\n` (line feed), `\f` (form feed), `\r` (carriage return), `\"` (double quote), `\'` (single quote), and `\\` (backslash).
+   	>
+   	> There's also a special `null` literal that can be used as a value for any reference type. `null` may be assigned to any variable, except variables of primitive types. There's little you can do with a `null` value beyond testing for its presence. Therefore, `null` is often used in programs as a marker to indicate that some object is unavailable.
+   	>
+   	> Finally, there's also a special kind of literal called a *class literal*, formed by taking a type name and appending "`.class"`; for example, `String.class`. This refers to the object (of type `Class`) that represents the type itself.
+
+   - 单引号用char，双引号用String
+   - 字符转义，转义序列：\ b（退格），\ t（制表符），\ n（换行），\ f（换页），\ r（回车）， \“（双引号），\'（单引号）和\\（反斜杠）。
 
 ### 1.2 运算符(Operators)
 
@@ -44,17 +53,12 @@
 
   因为Java最低位是符号位，0是正数，1是负数。
 
-**参考资料**
-
-- [官方介绍](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
-
-
-
-
-
-
 
 
 **参考资料**
-- [官网文档](https://docs.oracle.com/javase/tutorial/java/index.html)
+
+- [官网文档首页](https://docs.oracle.com/javase/tutorial/java/index.html)
+- [官方文档-语言基础](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+
+
 
