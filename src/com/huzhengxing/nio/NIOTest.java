@@ -1,9 +1,7 @@
 package com.huzhengxing.nio;
 
-import org.junit.Test;
 
 import java.nio.ByteBuffer;
-import java.nio.channels.FileChannel;
 
 /**
  * @Auther: Albert
@@ -13,7 +11,6 @@ import java.nio.channels.FileChannel;
  */
 public class NIOTest {
 
-    @Test
     public void testByteBuffer(){
         //射仪容量为1024字节缓冲区
         ByteBuffer byteBuffer = ByteBuffer.allocate(1024);
