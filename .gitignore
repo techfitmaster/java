@@ -1,0 +1,18 @@
+/target/*
+/uploads/
+/logs/
+/outputs/
+!/target/medusadatanode-1.0-SNAPSHOT.jar
+*.R
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+### Eclipse ###
+.project
+.classpath
+.DS_Store
+.settings
