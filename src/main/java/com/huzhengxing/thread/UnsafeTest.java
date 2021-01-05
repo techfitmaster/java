@@ -1,6 +1,6 @@
 package com.huzhengxing.thread;
 
-import sun.misc.Unsafe;
+//import sun.misc.Unsafe;
 
 import java.lang.reflect.Field;
 
@@ -17,25 +17,25 @@ public class  UnsafeTest {
 
      int  num = 0;
 
-    private static Unsafe unsafe = null;
+//    private static Unsafe unsafe = null;
 
     private void add() {
 //        unsafe.compareAndSwapInt(this)
 
     }
 
-    static {
-//        unsafe = Unsafe.getUnsafe();
-        try {
-            Field theUnsafe = Unsafe.class.getDeclaredField("theUnsafe");
-            theUnsafe.setAccessible(true);
-
-
-        } catch (NoSuchFieldException e) {
-            e.printStackTrace();
-        }
-
-    }
+//    static {
+////        unsafe = Unsafe.getUnsafe();
+//        try {
+//            Field theUnsafe = Unsafe.class.getDeclaredField("theUnsafe");
+//            theUnsafe.setAccessible(true);
+//
+//
+//        } catch (NoSuchFieldException e) {
+//            e.printStackTrace();
+//        }
+//
+//    }
 
     public static void main(String[] args) {
 
