@@ -2,6 +2,7 @@ package com.huzhengxing.nio;
 
 
 import java.nio.ByteBuffer;
+import java.util.ArrayList;
 
 /**
  * @Auther: Albert
@@ -29,8 +30,9 @@ public class NIOTest {
         byteBuffer.mark();
         byteBuffer.reset();
 
-
         ByteBuffer byteBuffer1 = ByteBuffer.allocateDirect(1024);
+
+        ArrayList<Object> objects = new ArrayList<>();
 
     }
 
