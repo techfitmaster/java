@@ -1,18 +1,32 @@
-/target/*
-/uploads/
-/logs/
-/outputs/
-!/target/medusadatanode-1.0-SNAPSHOT.jar
-*.R
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
-
+nohup.out
+original
+pretreatment
+venv
 
 ### Eclipse ###
 .project
 .classpath
 .DS_Store
 .settings
+.factorypath
+.history
+.vscode
+original   
+pretreatment
+venv
+./nohup.out
+/original
+/pretreatment
+/venv
+target/
+.vscode
+nohup.out
+target
+.Rhistory
+*.log
+
